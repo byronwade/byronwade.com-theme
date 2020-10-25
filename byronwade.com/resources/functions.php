@@ -60,8 +60,6 @@ array_map(function ($file) use ($sage_error) {
     }
 }, ['helpers', 'setup', 'filters', 'admin']);
 
-
-add_filter( 'big_image_size_threshold', '__return_false' );
 /**
  * Here's what's happening with these hooks:
  * 1. WordPress initially detects theme in themes/sage/resources
